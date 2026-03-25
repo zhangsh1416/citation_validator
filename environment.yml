@@ -1,0 +1,12 @@
+name: citation_validator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - google-generativeai>=0.8.5
+      - pymupdf>=1.26.0
+      - thefuzz[speedup]>=0.22.1
+      - pandas>=2.2.0
